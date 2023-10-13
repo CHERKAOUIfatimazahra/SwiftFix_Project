@@ -1,0 +1,330 @@
+* {
+   padding: 0;
+   text-decoration: none;
+   box-sizing: border-box;
+   font-family: 'Poppins', serif;
+}
+
+html {
+   font-size: 10px;
+  
+}
+
+.header {
+   font-family: 'Playfair Display', serif;
+   font-size: 2rem;
+   color: #094B72;
+   display: flex;
+   align-items: center;
+   margin-left: 10rem;
+}
+
+#menu {
+   background: #FFF;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 111rem;
+   height: 10rem;
+}
+
+.head-right {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 60%;
+}
+
+.header-icon {
+   display: inline-block;
+   width: 14.4rem;
+   height: 3.6rem;
+}
+
+.header-menu-items {
+   font-family: 'Playfair Display', serif;
+   font-size: 1.4rem;
+   padding: 1.2rem;
+   justify-content: center;
+   align-items: center;
+   color: #2D2F30;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 2.3rem;
+   letter-spacing: 0.15rem;
+}
+
+.header-menu-items a {
+   display: inline-flex;
+   padding: 1.2rem;
+   justify-content: center;
+   align-items: center;
+}
+
+.header-menu-items ul li {
+   display: inline-block;
+   padding: 10px 30px;
+
+}
+
+.header-main {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 100px;
+   padding-left: 10%;
+   padding-right: 10%;
+}
+
+.header-menu-items {
+   display: inline-block;
+   padding: 10px 30px;
+
+}
+
+/* Header style-------------------------------------------------------- */
+
+.main-contenet {
+   display: flex;
+   gap: 15rem;
+   margin-left: 10rem;
+}
+
+.left-content {
+   font-family: 'Playfair Display', serif;
+   font-size: 1rem;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: space-between;
+   width: 40%;
+}
+
+.content h1 {
+   font-family: 'Playfair Display', serif;
+   color: #094B72;
+   font-size: 9rem;
+   font-weight: 700;
+   letter-spacing: 0.18rem;
+}
+
+.content p {
+   color: #4F4F4F;
+   font-size: 2.4rem;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 3.792rem;
+   letter-spacing: 0.05rem;
+}
+
+.content-contact{
+
+text-align: center;
+border-radius: 0.8rem;
+width: 20rem;
+padding: 15px;
+background: #094B72;
+}
+
+.content-contact a{
+   width: 11.8rem;
+   color:  #F9F8F9;
+   font-size: 1.6rem;
+   font-style: normal;
+   font-weight: 600;
+   letter-spacing: 0.128rem;
+}
+
+.companies{
+color: #8B8C8C;
+font-size: 2.2rem;
+line-height: 3.091rem;
+letter-spacing: 0.088rem;
+}
+.logo_companie{
+   display: flex;
+   justify-content: space-between;
+}
+
+.inetum-capgemini{
+   margin-bottom: auto;
+}
+.cegedim-wobz{
+   margin-bottom: auto;
+}
+
+.right-side {
+   width: 60%;
+}
+.image-container {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   margin-left: 200px;
+}
+.image-container img{
+   width: 600px;
+}
+
+/* .name{
+color: #33475B;
+text-align: center;
+font-size: 2.4rem;
+justify-content: center;
+font-family: Plus Jakarta Sans;
+display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   width: 100%;
+   justify-content: space-between;
+}
+.work{
+
+} */
+
+/* --about section------------------------------------------------------------------- */
+.about-section{
+   background-color: #F2F7FF;
+   position: relative;
+   bottom: 2rem;
+   display: flex;
+   justify-content: space-between;
+   background-color: #F2F7FF;
+   align-items: center;
+}
+.right-side-about{
+   flex-basis: 40%;
+   padding-right:100px ;
+}
+
+.left-side-about{
+   flex-basis: 60%;
+}
+.left-side-about
+{
+   flex: 1;
+   width: 50%;
+   margin: 25px;
+   padding: 40px;
+   color: #fff;
+   text-align: start;
+}
+.right-side-about{
+   display: flex;
+   padding: 5rem;
+   flex-wrap: wrap;
+   /* justify-content: space-between;
+   align-items: center; */
+}
+.right-side-about h3{
+color: #2D2F30;
+font-size: 4.8rem;
+font-weight: 700;
+letter-spacing: 0.0323rem;
+}
+.right-side-about p{
+color: #8B8C8C;
+font-size: 2rem;
+font-weight: 400;
+line-height: 3.6rem;
+letter-spacing: 0.05rem;
+}
+.left-side-about{
+   display: flex;
+   justify-content: center;
+}
+
+.equipment-information{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.facility-otherService{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.equipment-information
+{
+   width: 25.6rem;
+   padding: 2.4rem;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 1.8rem; 
+}
+.equipment-information h3{
+   color: #363940;
+font-size: 2.2rem;
+font-weight: 700;
+line-height: 2.2rem;
+letter-spacing: 0.05rem;
+}
+.equipment-information p{
+   color:#8B8C8C;
+font-size: 1.4rem;
+font-weight: 400;
+line-height: 2.4rem;
+letter-spacing: 0.03rem;
+}
+.facility-otherService{
+   width: 25.6rem;
+   padding: 2.4rem;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 1.8rem; 
+}
+.facility-otherService h3{
+   color: #363940;
+font-size: 2.2rem;
+font-weight: 700;
+line-height: 2.2rem;
+letter-spacing: 0.05rem;
+}
+.facility-otherService p{
+   color:#8B8C8C;
+   font-size: 1.4rem;
+   font-weight: 400;
+   line-height: 2.4rem;
+   letter-spacing: 0.03rem; 
+}
+.equipement_section{
+width: 23.6rem;
+padding: 2.4rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 1.8rem;
+border-radius: 0.8rem;
+background: #FCFCFC;
+box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
+}
+.information_section{
+   width: 23.6rem;
+   padding: 2.4rem;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 1.8rem;
+   border-radius: 0.8rem;
+   background: #FCFCFC;
+   box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
+   }
+   .facility_section{
+      width: 23.6rem;
+      padding: 2.72rem;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1.8rem;
+      border-radius: 0.8rem;
+      background: #FCFCFC;
+      box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
+      } 
+    .otherService_section{
+         width: 23.6rem;
+         padding: 2.71rem;
+         flex-direction: column;
+         align-items: flex-start;
+         gap: 1.8rem;
+         border-radius: 0.8rem;
+         background: #FCFCFC;
+         box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
+         }      
