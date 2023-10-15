@@ -183,7 +183,7 @@ html {
 
 .container {
    padding-left: 10%;
-   padding-right: 10%;
+   padding-right: 17%;
 }
 
 
@@ -495,15 +495,6 @@ html {
    cursor: pointer;
    transition: 0.8s;
 }
-.section_questions button:hover{
-   color: white;
-   background-color: #0b8942;
-   font-size: 1.8rem;
-   padding: 24px 49px;
-   text-align: center;
-   justify-content: center;
-
-}
 /* ------------------------  */
 .footer_info {
    display: flex;
@@ -702,13 +693,8 @@ html {
 }
 .bady-contact{
    display: flex;
-   /* justify-content: center; */
    font-size: 2rem;
    margin-top: 3rem;
-   /* margin-right: 10rem;
-   margin-left: 10rem;
-   padding-left: 10rem;
-   padding-right: 10rem; */
 }
 .contact_section input,select {
    width: 100%;
@@ -751,7 +737,8 @@ html {
  }
 .row{
    font-size: 2rem;
-   margin-right: 100rem;
+   margin-right: 10rem;
+   margin-left: 20rem;
 }
 .contact_section button {
    border: none;
@@ -770,3 +757,8 @@ html {
    color: #0355cc;
  }
 /* map style-------------------------- */
+.map-container{
+   font-size: 2rem;
+   margin-right: 1rem;
+   margin-left: 15rem;
+}
