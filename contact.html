@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwiftFix</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+</head>
+
+<body>
+    <!-- Header Section ------------------------------------------------------>
+    <header class="header">
+        <div id="menu">
+            <div class="header-icon">
+                <img class="header-logo" src="img/Logo.png" alt="logo">
+            </div>
+            <div class="head-right">
+                <nav class="header-menu-items">
+                    <ul>
+                        <li class="menu-item"><a class="menu-link" href="index.html">Home</a></li>
+                        <li class="menu-item"><a class="menu-link" href="propos.html">à propos</a></li>
+                        <li class="menu-item"><a class="menu-link" href="services.html">services</a></li>
+                        <li class="menu-item"><a class="menu-link" href="contact.html">contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- contact list -------------------------------------------->
+    <section class="contact_section">  
+        <div class="head-contact">
+            <h1>Contact Us</h1>
+        </div>
+        <div>
+            <div class="bady-contact">
+                <div class="row">
+                    <div class="col-md-6">
+                    <form action="get">
+                                <div>
+                                <input type="text" placeholder="Name">
+                                </div><br>
+                                <div>
+                                <input type="text" placeholder="last Name">
+                                </div><br>
+                                <div>
+                                <input type="text" placeholder="Phone Number">
+                                </div><br>
+                                <div>
+                                <input type="email" placeholder="Email">
+                                </div><br>
+                            <!--un formulaire de contact interactif-->
+                            <div class="select-container">
+                                <select class="select-box">
+                                    <option value="" selected disabled hidden>select an option</option>
+                                    <option value="first">you want to ask us about our services </option>
+                                    <option value="first">General Inquiry </option>
+                                    <option value="second">House Cleaning</option>
+                                    <option value="third">Repairs & Maintenance</option>
+                                    <option value="fourth">Painting Services</option>
+                                </select>
+                            </div><br>
+                            <!--fin du formulaire de contact interactif-->
+                            <div>
+                                <input type="text" class="message-box" placeholder="Message">
+                            </div>
+                            <div class="d-flex ">
+                                <button>SEND</button>
+                            </div>
+                        </form> 
+                    </div> 
+                </div> 
+                <!-- map content -->
+                <!-- <div class="map">
+                <div class="col-md-6">
+                    <div class="map_container">
+                    <div class="map">
+                        <div id="googleMap" style="width:100%;height:100%;"></div>
+                    </div>
+                    </div>
+                </div> -->
+                <!-- map content -->
+                <!-- <div class="map-container">
+                    <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13498.899852906557!2d-8.517190949999998!3d32.2385713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sma!4v1697120113732!5m2!1sen!2sma"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+                </div>  -->
+            </div>         
+        </div>
+    </section>
+    <!-- footer section-------------------------------------------------------------------------------- -->
+    <footer>
+        <div class="container footer_info">
+            <img src="./img/logo.svg" alt="footer logo" srcset="">
+            <div class="list_linkes">
+                <div>
+                    <h4>product</h4>
+                    <ul>
+                        <li><a href="#" aria-label="Overview">Overview</a></li>
+                        <li><a href="#" aria-label="Features">Features</a></li>
+                        <li><a href="#" aria-label="Tutorials">Tutorials</a></li>
+                        <li><a href="#" aria-label="Pricing">Pricing</a></li>
+                        <li><a href="#" aria-label="Releases">Releases</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#" aria-label="About">About</a></li>
+                        <li><a href="#" aria-label="Services">Services</a></li>
+                        <li><a href="#" aria-label="Careers">Careers</a></li>
+                        <li><a href="#" aria-label="Contact">Contact</a></li>
+                        <li><a href="#" aria-label="Partners">Partners</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>support</h4>
+                    <ul>
+                        <li><a href="#" aria-label="help center">Help Center</a></li>
+                        <li><a href="#" aria-label="Terms of service">Terms of service</a></li>
+                        <li><a href="#" aria-label="Legal">Legal</a></li>
+                        <li><a href="#" aria-label="Privacy Policy">Privacy Policy</a></li>
+                        <li><a href="#" aria-label="Status">Status</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container footer_underFooter">
+            <h5>© 2023 SwiftFix. All rights reserved</h5>
+            <div class="social_media">
+             <img src="./img/social_media/instagram.svg" alt="instagram">
+             <img src="./img/social_media/social.svg" alt="social">
+             <img src="./img/social_media/twitter.svg" alt="twitter">
+             <img src="./img/social_media/youtube.svg" alt="youtube">
+            </div>
+        </div>
+    </footer> 
+</body>
+
+</html>
