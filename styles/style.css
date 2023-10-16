@@ -4,12 +4,9 @@
    box-sizing: border-box;
    font-family: 'Poppins', serif;
 }
-
 html {
    font-size: 10px;
-
 }
-
 .header {
    font-family: 'Playfair Display', serif;
    font-size: 2rem;
@@ -17,7 +14,6 @@ html {
    display: flex;
    justify-content: center;
 }
-
 #menu {
    background: #FFF;
    display: flex;
@@ -26,14 +22,12 @@ html {
    width: 111rem;
    height: 10rem;
 }
-
 .head-right {
    display: flex;
    justify-content: space-between;
    align-items: center;
    width: 60%;
 }
-
 .header-icon {
    display: inline-block;
    width: 14.4rem;
