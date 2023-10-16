@@ -60,15 +60,6 @@ html {
 
 }
 
-.header-main {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   height: 100px;
-   padding-left: 10%;
-   padding-right: 10%;
-}
-
 .header-menu-items {
    display: inline-block;
    padding: 10px 30px;
@@ -77,10 +68,12 @@ html {
 
 /* Header style-------------------------------------------------------- */
 
-.main-contenet {
+.main-contenet  {
    display: flex;
    gap: 15rem;
    margin-left: 10rem;
+   padding-left: 10%;
+   padding-right: 17%;
 }
 
 .left-content {
@@ -396,7 +389,6 @@ html {
    font-weight: 300;
    color: white;
 }
-
 /* ------------------------  */
 .section_Testimonial {
    display: flex;
@@ -493,7 +485,6 @@ html {
 .footer_info {
    display: flex;
    justify-content: space-between;
-   margin-top: 50px;
    padding-top: 50px;
    height: 50vh;
    background-color: #094B72;
@@ -713,7 +704,7 @@ html {
  .contact_section input::-webkit-input-placeholder {
    color: #737272;
  }
- 
+
  .contact_section input:-ms-input-placeholder {
    color: #737272;
  }
