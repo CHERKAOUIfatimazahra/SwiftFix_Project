@@ -1,0 +1,300 @@
+/* Mobile */
+@media screen and (max-width: 767px) {
+   html {
+      font-size: 7px;
+      margin: 0;
+      padding: 0;
+     }
+   .text-search{
+      display: none;
+     }
+   .left-content{
+      margin-left: 2rem;
+      width: 100%;
+   }
+   .content h1 {
+      font-size: 7rem;
+     }
+    .header-menu-items{
+        display: none;
+    }
+    .menu_hamburger{
+      display: inline-block;
+      font-size: 2rem;
+      margin-right: 1rem;
+    }
+    .headImg{
+      display: none;
+    }
+    .nameImg{
+        display: none;
+    }
+    .image-container{
+        margin: auto;
+    }
+     /* partie about *****************************************/
+   .about-section{
+      display: block;
+      padding-bottom: 1rem;
+   } 
+   .right-side-about {
+      display: block;
+      width: 90%;
+      margin-left: 2rem;
+   }   
+   .right-side-about p{
+      font-size: 3rem;
+      letter-spacing: 0.1rem;
+      line-height: 5rem;
+      padding-right: 0;
+   }
+   .left-side-about{
+      width: 90%;
+      flex-direction: column;
+      margin-left: 3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+   .equipment-information{
+      width: 50%;
+   
+     } 
+   .facility-otherService{
+      width: 50%;
+   } 
+     /*********************************/
+     .section_Count {
+        padding: 0;
+     }
+     .details {
+        width: 65%;
+        margin-bottom: 2rem;
+     }
+     .section_Count h2{
+       font-size: 4rem;
+       text-align: center;
+     } 
+     .section_Count p{
+      font-size: 2rem;
+      text-align: center;
+     }  
+     /***************************************  */
+     .section_Testimonial h2{
+      font-size: 4rem;
+    }
+    .client_feedback_containe{
+      border-radius: 10px;
+      margin: 0;
+    }
+    .client_feedback2{
+      display: none;
+    }
+    .Testimonial_div{
+      width: 90%;
+    }
+/* ************************************************* */
+   .section_questions{
+      width: 86%;
+      margin: 3rem;
+   }
+   /*footer*/
+   .footer_info{
+      display: block;
+   } 
+   .list_linkes{
+      flex-direction: column;
+      width: 80%;
+      margin-left: auto;
+   }
+   .list_linkes h4 {
+      font-size: 4rem;
+      margin: 0;
+      padding: 0;
+   } 
+   .list_linkes a {
+      font-size: 2rem;
+   }
+   .footer_underFooter h5{
+      margin-right: 0rem;
+   }
+/* la page about ***************************/
+.image{
+    display: none;
+ }
+.text-about p{
+   margin-right: -11rem
+} 
+.text-about{
+   margin-right: 14rem;
+   margin-bottom: 5rem;
+}
+/* service ********************** */
+.about-class{
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.equipment-information2{
+   flex-direction: column;
+}
+.facility-otherService2{
+   flex-direction: column;
+}
+ /*contact *************************/
+.bady-contact{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    width: 57%;
+}
+.map-container{
+   margin-left: 0rem;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+   html {
+      font-size: 7px;
+      margin: 0;
+      padding: 0;
+     }
+   .text-search{
+      display: none;
+     }
+   .left-content{
+      margin-left: 2rem;
+      width: 100%;
+   }
+    .header-menu-items{
+        display: none;
+    }
+    .menu_hamburger{
+      display: inline-block;
+      font-size: 2rem;
+      margin-right: 1rem;
+    }
+    .image-container img {
+      width: 57rem;
+    }
+     /* partie about *****************************************/
+   .about-section{
+      display: block;
+      padding-bottom: 6rem;
+   } 
+   .right-side-about {
+      display: flex;
+      width: 90%;
+      margin: 0rem;
+      justify-content: center;
+      align-items: center;
+   }   
+   .right-side-about p{
+      font-size: 3rem;
+      letter-spacing: 0.1rem;
+      line-height: 5rem;
+      padding-right: 0;
+      margin-left: 14rem;
+   }  
+   .left-side-about{
+      display: flex;
+      margin: 0rem 23rem;
+     }
+   .equipment-information{
+      width: 50%;
+      display: flex;
+   
+     } 
+   .facility-otherService{
+      width: 50%;
+   } 
+     /*********************************/
+     .section_Count {
+        padding: 0;
+     }
+     .details {
+        width: 65%;
+        margin-bottom: 2rem;
+     }
+     .section_Count h2{
+       font-size: 4rem;
+       text-align: center;
+     } 
+     .section_Count p{
+      font-size: 2rem;
+      text-align: center;
+     }  
+     /***************************************  */
+     .section_Testimonial h2{
+      font-size: 4rem;
+    }
+    .client_feedback_containe{
+      border-radius: 10px;
+      margin: 0;
+    }
+    .client_feedback2{
+      display: none;
+    }
+    .Testimonial_div{
+      width: 90%;
+    }
+/* la page about ***************************/
+.image{
+    display: none;
+ }
+.text-about p{
+   margin-right: -11rem;
+} 
+.text-about{
+   margin-right: 14rem;
+   margin-bottom: 5rem;
+}
+/* service ********************** */
+.about-class{
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+ /*contact *************************/
+.bady-contact{
+   /* width: 60rem;
+   margin-left: -16rem; */
+}
+.contact_section{
+   /* padding-bottom: 3rem; */
+}  
+}
+@media screen and (max-width: 1279px){
+   html {
+      font-size: 7px;
+      margin: 0;
+      padding: 0;
+     }
+   .facility-otherService{
+      width: 50%;
+   } 
+     /*********************************/
+     .section_Count {
+        padding: 0;
+     }
+     .details {
+        width: 65%;
+        margin-bottom: 2rem;
+     }
+     .section_Count h2{
+       font-size: 4rem;
+       text-align: center;
+     } 
+     .section_Count p{
+      font-size: 2rem;
+      text-align: center;
+     }  
+
+ /*contact *************************/
+.bady-contact{
+   /* width: 60rem;
+   margin-left: -16rem; */
+}
+.contact_section{
+   /* padding-bottom: 3rem; */
+}  
+} 
