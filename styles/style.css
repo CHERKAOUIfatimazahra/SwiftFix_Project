@@ -1,4 +1,5 @@
 * {
+   /* border: 1px solid red; */
    padding: 0;
    text-decoration: none;
    box-sizing: border-box;
@@ -599,4 +600,20 @@ html {
 .text-search{
    font-size: 1.5rem;
    border: 0.2rem solid #e5efff;
+}
+
+.menu_hamburger {
+   display: none;
+   cursor: pointer;
+   font-size: 24px; /* Vous pouvez ajuster la taille de la police */
+}
+
+.bar {
+   width: 30px;
+   height: 3px;
+   background-color: #333;
+   margin: 4px 0;
+}
+.header-menu-items ul.show {
+   display: block;
 }

@@ -23,14 +23,14 @@
       font-size: 2rem;
       margin-right: 1rem;
     }
-    .headImg{
-      display: none;
-    }
     .nameImg{
         display: none;
     }
     .image-container{
         margin: auto;
+    }
+    .right-side{
+      display: none;
     }
      /* partie about *****************************************/
    .about-section{
@@ -175,6 +175,9 @@
     }
     .image-container img {
       width: 57rem;
+    }
+    .right-side{
+      display: none;
     }
      /* partie about *****************************************/
    .about-section{

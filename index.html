@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-        <!-- <script src="script.js"></script> -->
+    <link rel="stylesheet" href="styles/responsive.css">    
+        
 </head>
 
 <body>
@@ -34,7 +35,7 @@
                     <i class="fa-solid fa-magnifying-glass"><span></span></i>
                 </div>
                 <div class="menu_hamburger">
-                    <i class="fa-solid fa-bars fa-xl"></i>
+                    <i class="fa-solid fa-bars fa-xl"></i>   
                 </div>
             </div>
         </div>
@@ -245,7 +246,17 @@
                 <i class="fa-brands fa-youtube fa-2xl" style="color: #ffffff;"></i>
             </div>
         </div>
-    </footer> 
+    </footer>
+<script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuHamburger = document.querySelector('.menu_hamburger');
+            const headerMenuItems = document.querySelector('.header-menu-items ul');
+    
+            menuHamburger.addEventListener('click', function () {
+                headerMenuItems.classList.toggle('show');
+            });
+        });
+</script> 
 </body>
 
 </html>
