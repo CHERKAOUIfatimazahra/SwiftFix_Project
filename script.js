@@ -1,11 +1,25 @@
-//FAQ
-const button = document.querySelector(".faq_head");
-const body = document.querySelector(".faq_body");
-
-button.addEventListener("click", () => {
-    body.classList.toggle("collapse")
+//testimenial
+document.addEventListener("DOMContentLoaded",function(){
+const carousel = document.querySelectorAll(".movement");
+const testimenial = document.querySelector(".Testimonial_div");
+let move = carousel[0].clientWidth;
+let index = 0;
+    function movementNumber(){
+        index = (index + 1) % carousel.length;
+        let translater = -index * move;
+        testimenial.style.transform = `translateX(${translater}px)`;
+    }
+    setInterval(movementNumber,2000)
 })
-
+//FAQ
+const button = document.querySelectorAll(".faq_header");
+const body = document.querySelectorAll(".faq_body");
+for (let i = 0; i < button.length; i++) {
+   
+    button[i].addEventListener("click", () => {
+        body[i].classList.toggle("collapse")
+    })
+}
 //read move
 const modal = document.querySelector('.modal')
 const open = document.querySelector('.read')

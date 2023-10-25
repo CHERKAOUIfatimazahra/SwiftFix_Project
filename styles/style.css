@@ -330,8 +330,7 @@ html {
    background-color: #F2F7FF;
    align-items: center;
    flex-direction: column;
-   width: 100%;
-   padding-bottom: 10rem;
+   padding: 9rem 11%;
 }
 
 .section_Testimonial h2 {
@@ -341,12 +340,11 @@ html {
 
 .Testimonial_div {
    display: flex;
-   width: 80%;
 }
 
 .client_feedback {
    display: flex;
-   width: 50%;
+   /* width: 50%; */
    color: #fff;
    text-align: center;
 }
@@ -819,7 +817,6 @@ select {
    border-radius: 1.5rem 1.5rem 0 0;   
 }
 .faq_body{
-   padding: 2rem;
    text-align: center;
    border: 2px solid;
    transition: height 0.3s ease-in-out;
@@ -840,4 +837,16 @@ select {
    font-family: Plus Jakarta Sans;
    font-size: 2.5rem;
    font-weight: 700;
+}
+/* .client_feedback2{
+   display: none;
+} */
+.testimonial{
+   overflow: hidden;
+}
+.client_feedback1{
+   min-width: 100%;
+}
+.client_feedback2{
+   min-width: 100%;
 }
