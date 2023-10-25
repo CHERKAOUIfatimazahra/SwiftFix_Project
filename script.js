@@ -1,3 +1,21 @@
+//FAQ
+const button = document.querySelector(".faq_head");
+const body = document.querySelector(".faq_body");
+
+button.addEventListener("click", () => {
+    body.classList.toggle("collapse")
+})
+
+//read move
+const modal = document.querySelector('.modal')
+const open = document.querySelector('.read')
+const close = document.querySelector('.close')
+open.addEventListener('click',() =>{
+    modal.showModal();
+})
+close.addEventListener('click',()=>{
+    modal.close();
+})
 // dropdown
 const menu = document.querySelector('.header-menu-items');
 const burger = document.querySelector('.menu_hamburger');
@@ -29,5 +47,7 @@ searchInput.addEventListener('input', (event) => {
         searchIcon.style.display = 'none';
     }
 });
+
+
 
 

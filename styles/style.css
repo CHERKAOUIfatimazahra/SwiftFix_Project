@@ -732,7 +732,112 @@ select {
 .header-menu-items ul.show {
    display: block;
 }
+/* read more */
+.close{
+   border-radius: 8px;
+   background: #126291;
+   width: 219px;
+   height: 64px;
+   color: #F9F8F9;
+   font-family: Poppins;
+   font-size: 22px;
+   font-style: normal;
+   font-weight: 600;
+   justify-content: center;
+}
+.close:hover{
+   cursor: pointer;
+}
+.open:hover{
+   cursor: pointer;
+}
+.modal{     
+   padding: 30px 50px;
+   width: 700px;
+   border: #FFF;
+   box-shadow: 0 0 1em rgb(0, 0, .3);
+}
+.read{
+   width: 19rem;
+   height: 8rem;
+   flex-shrink: 0;
+   border-radius: 0.8rem;
+   background: #094B72;
+   color: #F9F8F9;
+   font-family: Plus Jakarta Sans;
+   font-size: 1.6rem;
+   font-weight: 700;
+   line-height: 140.5%;
+   letter-spacing: 1.28px;
+}
+.modalis h2{
+   font-size: 2.6rem;
+   font-family:Plus Jakarta Sans;
+   color: #000;
+   font-weight: 700;
+   line-height: 140.5%;
+   letter-spacing: 1.28px;
+}
+.modalis p{
+   font-size: 2rem;
+   font-family:Poppins;
+   color: #000;
+}
+.close{
+   width: 8rem;
+   height: 4rem;
+   flex-shrink: 0;
+   border-radius: 0.8rem;
+   background: #094B72;
+   color: #F9F8F9;
+   font-family: Plus Jakarta Sans;
+   font-size: 1.6rem;
+   font-weight: 700;
+   line-height: 140.5%;
+   letter-spacing: 1.28px;
+}
 /* FAQ */
-.faq_titl{
-   
+.faq_container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.faq_title{
+   font-size: 3rem;
+}
+.section-faq{
+   width: 56rem;
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+}
+.faq_head{
+   width: 100%;
+   background-color: #8B8C8C;
+   border: none;
+   cursor: pointer;
+   border-radius: 1.5rem 1.5rem 0 0;   
+}
+.faq_body{
+   padding: 2rem;
+   text-align: center;
+   border: 2px solid;
+   transition: height 0.3s ease-in-out;
+   height: 10rem;
+   font-size: 2rem;
+   margin-top: 0rem;
+   border-radius: 0.8rem;
+}
+.faq_body.collapse{
+   overflow: hidden;
+   height: 0;
+}
+.faq_header{
+   height: 4rem;
+   border-radius: 0.8rem;
+   background-color: #126291;
+   color: #F9F8F9;
+   font-family: Plus Jakarta Sans;
+   font-size: 2.5rem;
+   font-weight: 700;
 }
