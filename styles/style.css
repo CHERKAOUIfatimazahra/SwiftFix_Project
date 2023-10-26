@@ -708,16 +708,21 @@ select {
 .menu_hamburger {
    display: none;
 }
+.Testimonial_div{
+   transition: transform .5s ease;
+}
 
 .text-search {
    font-size: 1.5rem;
+   display: flex;
+   gap: 1rem;
+   align-items: center;
    
 }
 .menu_hamburger {
    display: none;
    cursor: pointer;
-   font-size: 24px;
-   /* Vous pouvez ajuster la taille de la police */
+   font-size: 2.4rem;
 }
 
 .bar {
@@ -838,9 +843,6 @@ select {
    font-size: 2.5rem;
    font-weight: 700;
 }
-/* .client_feedback2{
-   display: none;
-} */
 .testimonial{
    overflow: hidden;
 }

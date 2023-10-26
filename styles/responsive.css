@@ -6,7 +6,9 @@
       padding: 0;
      }
    .text-search{
-      display: none;
+      font-size: 2rem;
+      padding: 2rem;
+      gap: 1rem;
      }
    .left-content{
       margin-left: 2rem;
@@ -39,6 +41,7 @@
     }
     .header-menu-items ul li{
       display: flex;
+      align-items: center;
     }
     .dropdown-menu ul{
       background: #094B72;

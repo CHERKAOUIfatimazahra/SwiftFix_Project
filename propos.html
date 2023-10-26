@@ -14,7 +14,8 @@
 </head>
 
 <body>
-    <!-- Header Section -->
+
+<!-- Header Section -->
     <header class="header">
         <div id="menu">
             <div class="header_icon">
@@ -24,17 +25,25 @@
                 <nav class="header-menu-items">
                     <ul>
                         <li class="menu-item"><a class="menu-link" href="index.html">Home</a></li>
-                        <li class="menu-item"><a class="menu-link" href="propos.html">à propos</a></li>
-                        <li class="menu-item"><a class="menu-link" href="services.html">services</a></li>
+                        <li class="menu-item"><a class="menu-link" href="propos.html">A propos</a></li>
+                        <li class="menu-item"><a class="menu-link" href="services.html">services</a>
+                            <i class="fa-solid fa-caret-down"></i>
+                            <ul class="dropdown-menu">
+                                <li><a href="">Equipment</a></li>
+                                <li><a href="">Information</a></li>
+                                <li><a href="">Facility</a></li>
+                                <li><a href="">Other Services</a></li>
+                            </ul>
+                        </li>
                         <li class="menu-item"><a class="menu-link" href="contact.html">contact</a></li>
-                        <li class="header-search"><i class="fa-solid fa-magnifying-glass"></i></li>
+                        <li class="text-search">
+                            <input type="text" class="input-search" id="search_input" placeholder="search"/>
+                            <i class="fa-solid fa-magnifying-glass" id="search_button"></i>
+                        </li>
                     </ul>
                 </nav>
-                <div class="text-search">
-                    <input type="text" class="input-search" placeholder="search">
-                </div>
                 <div class="menu_hamburger">
-                    <i class="fa-solid fa-bars fa-xl"></i>
+                    <i class="fa-solid fa-bars fa-xl"></i>   
                 </div>
             </div>
         </div>
@@ -67,26 +76,25 @@
             </button>
         </dialog> 
     </section>
-    <!-- read more -->
-    
-    <!-- end read more -->
-    <!-- FAQ -->
+
+<!-- FAQ -->
     <section class="faq_container">
-       <h2 class="faq_title">FAQ</h2>
+    <h2 class="faq_title">FAQ</h2>
        <div class="section-faq">
-        <button class="faq_header">question 1</button>
-        <p class="faq_body">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in</p>
+            <button class="faq_header">question 1</button>
+            <p class="faq_body">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in</p>
        </div>
        <div class="section-faq">
-        <button class="faq_header">question 2</button>
-        <p class="faq_body">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in</p>
+            <button class="faq_header">question 2</button>
+            <p class="faq_body">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in</p>
        </div>
        <div class="section-faq">
-        <button class="faq_header">question 3</button>
-        <p class="faq_body">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in</p>
-       </div>
+            <button class="faq_header">question 3</button>
+            <p class="faq_body">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in</p>
+        </div>
     </section>
-    <!-- END FAQ -->
+<!-- END FAQ -->
+
     <!-- footer section -->
     <footer>
         <div class="container footer_info">
@@ -135,7 +143,12 @@
             </div>
         </div>
     </footer>
-<script src="script.js"></script>     
+
+<!-- javascript  -->
+
+<script src="script/swiftflex.js"></script>
+<script src="script/propos.js"></script>
+
 </body>
 
 </html>
