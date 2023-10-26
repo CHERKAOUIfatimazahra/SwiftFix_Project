@@ -852,3 +852,8 @@ select {
 .client_feedback2{
    min-width: 100%;
 }
+/* validation contact */
+.error_message{
+   color: red;
+   font-weight: bolder;
+}

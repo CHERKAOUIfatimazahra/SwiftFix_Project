@@ -37,7 +37,7 @@
                         </li>
                         <li class="menu-item"><a class="menu-link" href="contact.html">contact</a></li>
                         <li class="text-search">
-                            <input type="text" class="input-search" id="search_input" placeholder="search"/>
+                            <input type="text" class="input-search" id="search_input" placeholder="search">
                             <i class="fa-solid fa-magnifying-glass" id="search_button"></i>
                         </li>
                     </ul>
@@ -56,38 +56,45 @@
         </div>
             <div class="bady-contact">
                 <div class="forml_contact">
-                    <form action="get">
-                            <div>
-                                <input type="text" placeholder="Name">
-                            </div><br>
-                            <div>
-                                <input type="text" placeholder="last Name">
-                            </div><br>
-                            <div>
-                                <input type="text" placeholder="Phone Number">
-                            </div><br>
-                            <div>
-                                <input type="email" placeholder="Email">
-                            </div><br>
-                            <!--un formulaire de contact interactif-->
-                            <div class="select-container">
-                                <select class="select-box">
-                                    <option value="" selected disabled hidden>select an option</option>
-                                    <option value="first">you want to ask us about our services </option>
-                                    <option value="first">General Inquiry </option>
-                                    <option value="second">House Cleaning</option>
-                                    <option value="third">Repairs & Maintenance</option>
-                                    <option value="fourth">Painting Services</option>
-                                </select>
-                            </div><br>
-                            <!--fin du formulaire de contact interactif-->
-                            <div>
-                                <input type="text" class="message-box" placeholder="Message">
-                            </div>
-                            <div class="boutton">
-                                <a class="boutton_send" href="contact.html">SEND</a>
-                            </div>
-                    </form> 
+                    <form id="contact_Form">
+                        <div>
+                            <span id="fname_error" class="error_message"></span>
+                            <input id="fname_input" type="text" placeholder="Name">
+                        </div><br>
+                        <div>
+                            <span id="lname_error" class="error_message"></span>
+                            <input id="lname_input" type="text" placeholder="last Name">
+                        </div><br>
+                        <div>
+                            <span id="pnumber_error" class="error_message"></span>
+                            <input id="phone_input" type="text" placeholder="Phone Number">
+                        </div><br>
+                        <div>
+                            <span id="email_error" class="error_message"></span>
+                            <input id="email_input" type="email" placeholder="Email">
+                        </div><br>
+                        <!--un formulaire de contact interactif-->
+                        <div class="select-container">
+                            <span id="service_error" class="error_message"></span>
+                            <select class="select-box" id="select_services">
+                                <option value="" selected disabled hidden>select an option</option>
+                                <option value="first">you want to ask us about our services </option>
+                                <option value="first">General Inquiry </option>
+                                <option value="second">House Cleaning</option>
+                                <option value="third">Repairs & Maintenance</option>
+                                <option value="fourth">Painting Services</option>
+                            </select>
+                        </div><br>
+                        <!--fin du formulaire de contact interactif-->
+                        <div>
+                            <span id="message_error" class="error_message"></span>
+                            <input type="text" class="message-box" id="message_input" placeholder="Message">
+                            
+                        </div>
+                        <div class="boutton">
+                            <button class="boutton_send" type="submit">SEND</button>
+                        </div>
+                </form> 
                 </div> 
                 <!-- map content -->
                 <div class="map-container">

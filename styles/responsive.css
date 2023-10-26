@@ -22,8 +22,7 @@
         display: none;
     }
     .header-menu-items.active{
-      display: block;
-      
+      display: block; 
   }
     .header-menu-items ul{
       background: #094B72;
@@ -313,15 +312,7 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
-}
- /*contact *************************/
-.bady-contact{
-   /* width: 60rem;
-   margin-left: -16rem; */
-}
-.contact_section{
-   /* padding-bottom: 3rem; */
-}  
+} 
 }
 @media screen and (max-width: 1279px){
    html {
@@ -347,14 +338,5 @@
      .section_Count p{
       font-size: 2rem;
       text-align: center;
-     }  
-
- /*contact *************************/
-.bady-contact{
-   /* width: 60rem;
-   margin-left: -16rem; */
-}
-.contact_section{
-   /* padding-bottom: 3rem; */
-}  
+     }   
 } 
