@@ -18,7 +18,7 @@ Implement breakpoints to ensure the site is adaptable to various screen sizes:
 
 - **Large desktop**: 1280px and above
 
-#### Interactive Components:
+### Interactive Components:
 
 - **Home Page:**
 
@@ -50,7 +50,7 @@ Real-time form validation to guide users in completing the contact form correctl
 
 - **JavaScript for interactivity and dynamic components**
 
-### Project Structure
+## Project Structure
 
 The website will include the following pages:
 
@@ -67,5 +67,5 @@ The website will include the following pages:
 Clone the repository:
 
  ```bash
-   https://github.com/CHERKAOUIfatimazahra/SwiftFix_Multi-Page.git
+   https://github.com/CHERKAOUIfatimazahra/SwiftFix_Project.git
 
